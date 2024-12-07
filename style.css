@@ -1,0 +1,73 @@
+.wetherDetector{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #2b2727;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-shadow: -5px 6px 1px #000;
+    box-shadow: -20px 20px 5px #000;
+}
+.header{
+    padding: auto;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #120c0c;
+    color: aliceblue;
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main{
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+}
+body{
+    background-color: #aeadad;
+    position: relative;
+}
+.input{
+    width: 100px;
+    height: 20px;
+    box-shadow: -5px 5px 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.button{
+    width: 50px;
+    height: 30px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding: auto;
+    background-color: #1a1818;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover{
+    scale: 1.08;
+    background-color: #2b2727;
+}
+
+.autogroph{
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 50px;
+    color: #ded4d485;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
