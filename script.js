@@ -19,8 +19,7 @@ btn.addEventListener('click', function(){
         console.log(value)
         let cont = document.querySelector('.wetherDetector')
         cont.innerHTML = ''
-
-
+        
             let name = document.createElement('h1')
             name.className = 'name'
             name.textContent = `city: ${value.name}`
@@ -50,9 +49,21 @@ btn.addEventListener('click', function(){
             pressure.className = 'presure'
             pressure.textContent = `pressure:${value.main.pressure}`
             cont.appendChild(pressure)
-
-
-        
+        // /// // // // // /
+            let yourCord = document.createElement('h2')
+            yourCord.className = 'cords'
+            yourCord.textContent = `city cordinates`
+            cont.appendChild(yourCord)
+        // // // // // / //
+            let lon = document.createElement('h3')
+            lon.className = 'lon'
+            lon.textContent = `lon: ${value.coord.lon}`
+            cont.appendChild(lon)
+        // // // /// /// / // / // / 
+            let lat = document.createElement('h3')
+            lat.className = 'lat'
+            lat.textContent = `lat: ${value.coord.lat}`
+            cont.appendChild(lat)
     })
     .catch(error =>
         console.error(error)
